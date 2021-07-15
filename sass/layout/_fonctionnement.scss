@@ -1,0 +1,48 @@
+.fonctionnement{
+    
+    margin-bottom: 50px;
+    
+    &__titre{
+        font-size: 2em;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    &__bouton{
+        background: $colour-secondary;
+        margin:15px;
+        margin-left: 25px ;
+        display: flex;
+        border-radius: 20px;
+        height: 60px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        z-index: 100;
+        &__number{
+            background: $colour-1;
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+            color: $colour-primary;
+            transform: translate(-13px, 18px);
+            text-align: center;
+            
+        
+        }
+        &__image{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left:5px;
+            margin-right:20px;
+        }
+        &__texte{
+            font-weight: bold;
+        }
+        &:hover{
+
+            background: lighten($colour-1, 35);
+        & .fonctionnement__bouton__image{                   //SALE !!!! il doit y avoir un meilleur moyen
+            color: $colour-1;
+        }
+        }
+    }
+}

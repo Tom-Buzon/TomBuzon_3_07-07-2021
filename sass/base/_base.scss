@@ -1,0 +1,17 @@
+
+body {
+    box-sizing: border-box;
+    max-width:425px;
+    margin:auto;
+    background: $colour-primary;
+    font-family: -webkit-pictograph;  /* passer en roboto, mais ce n'est pas la meme que sur la maquette ???? */
+}
+a,
+a:active,
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+html{
+    background-color: darken($colour-primary,35);
+}

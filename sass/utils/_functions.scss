@@ -1,0 +1,14 @@
+
+$i: 10;
+
+@while $i > 0 {
+    #card-#{$i} {
+        -webkit-animation: fadein $i*500ms, comeIn $i*200ms, growUp $i*250ms;
+        -moz-animation: fadein $i*500ms, comeIn $i*200ms, growUp $i*250ms; 
+        animation: fadein $i*500ms, comeIn $i*200ms, growUp $i*250ms; 
+        
+            }
+    $i: $i - 1 ;
+}
+
+

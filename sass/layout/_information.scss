@@ -1,0 +1,49 @@
+.information{
+    padding-top: 50px;
+    background:$colour-secondary;
+    &__localisation{
+        background: darken($colour-secondary, 5);
+        border-top:2px solid darken($colour-secondary, 10);
+        display:flex ;
+        justify-content: center;
+
+        &__image{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin:15px;
+            size: 2em;
+        }
+
+        &__titre{
+            color: $colour-4;  
+            font-weight: bold;
+        }
+    }    
+
+    &__reservation{
+        display:flex ;
+        align-items: center;
+        flex-direction:column;
+        text-align: center;
+
+        &__titre{
+            font-weight: bold;
+            width:60%;
+            font-size: 1.5em;
+        & p{
+            margin-bottom: 0;
+        }
+        }
+
+        &__texte{
+            width: 80%;
+            
+        }
+        &__bouton{
+           @include bouton;
+        }
+    }
+    
+
+}
