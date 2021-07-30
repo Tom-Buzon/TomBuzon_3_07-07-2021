@@ -3,12 +3,9 @@ $colour-secondary: darken($colour-primary, 5);
 $colour-accent: #D6FFF5;
 $colour-white: #fff;
 $colour-invalid: #DB464B;
-
-$colour-1:#9356DC ;
+$colour-1:#9356DC;
 $colour-2:#FF79DA;
 $colour-3:#99E2D0;
 $colour-4: black;
-
-$box-shadow:rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
-
+$box-shadow:rgba(0, 0, 0, 0.055) 0px 3px 6px,
+rgba(0, 0, 0, 0.041) 0px 3px 6px;

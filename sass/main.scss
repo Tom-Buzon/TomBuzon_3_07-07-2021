@@ -2,13 +2,9 @@
 @import "./utils/functions";
 @import "./utils/mixins";
 @import "./utils/keyframes";
-
-
+@import "./utils/media";
 @import "./base/base";
-
-
 @import "./components/retour";
-
 @import "./layout/loader";
 @import "./layout/header";
 @import "./layout/information";
@@ -16,4 +12,3 @@
 @import "./layout/restaurant";
 @import "./layout/footer";
 @import "./layout/menu";
-

@@ -1,66 +1,58 @@
-
 @mixin bouton {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:$colour-primary;
+    color: $colour-primary;
     background: linear-gradient($colour-2, $colour-1);
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-radius: 50px;
-    border:none;
-    margin-bottom:50px;
+    border: none;
+    margin-bottom: 50px;
     transition: all 400ms ease-in-out;
     box-shadow: $box-shadow;
-    & p{
+    padding: 4px 28px;
+    cursor: pointer;
+    & p {
         transition: all 400ms ease-in-out;
-        transform: rotateX(0deg) ;
+        transform: rotateX(0deg);
     }
-    &:hover{
+    &:hover {
         transform: scale(1.2);
-        background:linear-gradient(lighten( $colour-2, 5), lighten( $colour-1,5 ) );
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 9px, rgba(0, 0, 0, 0.23) 0px 6px 9px;;
-
+        background: linear-gradient(lighten( $colour-2, 5), lighten( $colour-1, 5));
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 9px, rgba(0, 0, 0, 0.23) 0px 6px 9px;
+        ;
     }
-    &:hover p{
+    &:hover p {
         transform: rotateX(360deg);
     }
-    
-    
 }
+
 @mixin logoHeart {
-    margin-right:25px;
+    margin-right: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 2em;
-    position:relative;
-    
-
-    
-    &:hover .restaurant__card__description__logo__1{
-        
-        opacity: 0; 
+    position: relative;
+    &:hover .restaurant__card__description__logo__1 {
+        opacity: 0;
     }
-    &:hover .restaurant__card__description__logo__2 {        
+    &:hover .restaurant__card__description__logo__2 {
         opacity: 1;
     }
-    &__1{
-        display:inline-block;
+    &__1 {
+        display: inline-block;
         position: relative;
-        top:50%;
-        transition:all 400ms ease-in-out;
+        top: 50%;
+        transition: all 400ms ease-in-out;
     }
-    &__2{
-        display:inline-block;
+    &__2 {
+        display: inline-block;
         position: relative;
         background-image: linear-gradient($colour-1, $colour-2);
-        -webkit-background-clip : text;
-        -webkit-text-fill-color : transparent;
-        top:-50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        top: -50%;
         opacity: 0;
-        transition:all 400ms ease-in-out;
-        
+        transition: all 400ms ease-in-out;
     }
-    
 }
