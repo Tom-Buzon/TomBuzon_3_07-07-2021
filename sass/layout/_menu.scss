@@ -9,9 +9,11 @@
         justify-content: space-between;
         padding-top: 20px;
         &__titre {
-            padding-left: 50px;
+            padding-left: 20px;
             font-family: 'Shrikhand';
             font-size: 1.8em;
+            display: flex;
+            align-items: center;
         }
         &__image {
             @include logoHeart;
