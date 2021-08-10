@@ -1,43 +1,47 @@
-#content-home{
-    
-    animation:fadein cubic-bezier(0, 0, 1,-0.18) 3000ms ;
-    -webkit-animation:fadein cubic-bezier(0, 0, 1,-0.18) 3000ms ;
-    -moz-animation:fadein cubic-bezier(0, 0, 1,-0.18) 3000ms ;
+#content-home {
+    animation: fadein cubic-bezier(0, 0, 1, -0.18) 3000ms;
+    -webkit-animation: fadein cubic-bezier(0, 0, 1, -0.18) 3000ms;
+    -moz-animation: fadein cubic-bezier(0, 0, 1, -0.18) 3000ms;
 }
 
-#header__logo__home{
-    animation: headerUp cubic-bezier(0, 0, 1,-0.18) 2000ms;
-    -webkit-animation: headerUp cubic-bezier(0, 0, 1,-0.18) 2000ms;
-    -moz-animation: headerUp cubic-bezier(0, 0, 1,-0.18) 2000ms;
+#header__logo__home {
+    animation: headerUp cubic-bezier(0, 0, 1, -0.18) 2000ms;
+    -webkit-animation: headerUp cubic-bezier(0, 0, 1, -0.18) 2000ms;
+    -moz-animation: headerUp cubic-bezier(0, 0, 1, -0.18) 2000ms;
 }
 
-.loader{
-    border:10px solid $colour-1;
-    border-top:5px solid $colour-primary;
-    border-bottom:10px solid $colour-3;
-    width:100px;
-    height:100px;
+.loader {
+    border-top: 5px solid $colour-primary;
+    border-bottom: 10px solid $colour-3;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    margin:auto;
+    margin: auto;
     position: absolute;
-    top:0; left:0; right:0; bottom:0;
-    animation: spin 3s linear infinite,fadeOut cubic-bezier(0, 0, 1,-0.18) 2500ms ;
-    -webkit-animation:spin 3s linear infinite,fadeOut cubic-bezier(0, 0, 1,-0.18) 2500ms ;
-    -moz-animation:spin 3s linear infinite,fadeOut cubic-bezier(0, 0, 1,-0.18) 2500ms ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: spin 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
+    -webkit-animation: spin 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
+    -moz-animation: spin 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
     opacity: 0;
-    &__mini{
-        border:10px solid $colour-1;
-        border-top:10px solid $colour-2;
-        border-bottom:5px solid $colour-primary;
-        width:60px;
-        height:60px;
+    &__mini {
+        border: 10px solid $colour-1;
+        border-top: 10px solid $colour-2;
+        border-bottom: 5px solid $colour-primary;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        margin:auto;
+        margin: auto;
         position: absolute;
-        top:0; left:0; right:0; bottom:0;
-        animation: spinOppose 3s linear infinite,fadeOut cubic-bezier(0, 0, 1,-0.18) 2500ms ;
-        -webkit-animation:spinOppose 3s linear infinite,fadeOut cubic-bezier(0, 0, 1,-0.18) 2500ms ;
-        -moz-animation:spinOppose 3s linear infinite,fadeOut cubic-bezier(0, 0, 1,-0.18) 2500ms ;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        animation: spinOppose 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
+        -webkit-animation: spinOppose 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
+        -moz-animation: spinOppose 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
         opacity: 0;
     }
 }

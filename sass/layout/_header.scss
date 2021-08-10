@@ -7,17 +7,7 @@ header {
     position: fixed;
     z-index: 99;
     max-width: 425px;
-}
-
-#header__logo {
-    background-image: url("../img/logo/ohmyfood.png");
-    background-size: 100%;
-    width: 50%;
-    height: 50px;
-    margin: auto;
-    background-repeat: no-repeat;
-    margin-top: 7px;
-    &__home {
+    & #header__logo__home {
         background-image: url("../img/logo/ohmyfood.png");
         background-size: 100%;
         width: 50%;
