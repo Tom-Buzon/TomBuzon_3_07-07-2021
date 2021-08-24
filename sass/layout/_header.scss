@@ -5,12 +5,11 @@ header {
     align-items: center;
     width: 100%;
     position: fixed;
-    z-index: 99;
-    max-width: 425px;
+    z-index: 1000;
     & #header__logo__home {
         background-image: url("../img/logo/ohmyfood.png");
         background-size: 100%;
-        width: 50%;
+        width: 250px;
         height: 50px;
         margin: auto;
         background-repeat: no-repeat;
@@ -19,7 +18,7 @@ header {
     & #header__logo {
         background-image: url("../img/logo/ohmyfood.png");
         background-size: 100%;
-        width: 50%;
+        width: 250px;
         height: 50px;
         margin: auto;
         background-repeat: no-repeat;

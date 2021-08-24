@@ -1,38 +1,33 @@
-.footer{
-background: darken($colour-primary,60);
-padding:20px;
-color:white;
-    & p{
-        margin:0;
-        margin-top:10px;
+.footer {
+    background: darken($colour-primary, 60);
+    padding: 20px;
+    color: white;
+    & p {
+        margin: 0;
+        margin-top: 10px;
     }
-    &__logo{
+    &__logo {
         background-image: url("../img/logo/ohmyfood.png");
         background-size: cover;
-        width:120px;
-        height:20px;
+        width: 120px;
+        height: 20px;
         filter: invert(1);
-        margin-bottom:20px;
-
+        margin-bottom: 20px;
     }
-    &__texte{
-        display:flex;
-        &__image{
+    &__texte {
+        display: flex;
+        &__image {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             margin-right: 10px;
             max-width: 10px;
-            
-            &__2{
-                font-size:0.65em;
+            &__2 {
+                font-size: 0.65em;
             }
         }
-        &__texte{
-
-        }
     }
-    & a{
-        color:$colour-primary;
+    & a {
+        color: $colour-primary;
     }
 }

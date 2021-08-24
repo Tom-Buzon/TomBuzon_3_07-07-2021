@@ -37,7 +37,6 @@
         &:hover {
             background: lighten($colour-1, 35);
             & .fonctionnement__bouton__image {
-                //SALE !!!! il doit y avoir un meilleur moyen
                 color: $colour-1;
             }
         }

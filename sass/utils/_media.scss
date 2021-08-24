@@ -1,5 +1,69 @@
-@media screen and (min-width:425px) {
+@media screen and (max-width:426px) {
     body {
-        margin: 0px;
+        box-sizing: border-box;
+        max-width: 425px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:769px) and (min-width:426px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        &__top {
+            width: 100%;
+        }
+        &__card {
+            width: 50%;
+        }
+        &__bottom {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:2000px) and (min-width:769px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &__top {
+            width: 100%;
+        }
+        &__card {
+            width: 33%;
+            max-width: 450px;
+        }
+        &__bottom {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:2000px) and (min-width:426px) {
+    .fonctionnement {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__bouton {
+            width: 50%;
+        }
+    }
+    .restaurant {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &__titre {
+            width: 100%;
+        }
+        &__card {
+            min-width: 49%
+        }
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
