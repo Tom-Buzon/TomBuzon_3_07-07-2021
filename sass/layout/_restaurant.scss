@@ -6,6 +6,7 @@
         font-weight: bold;
     }
     &__card {
+        display: block;
         margin-top: 20px;
         border-radius: 20px;
         background: $colour-primary;
