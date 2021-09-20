@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 50px;
     color: $colour-primary;
     background: linear-gradient($colour-2, $colour-1);
     border-radius: 50px;
@@ -16,8 +17,7 @@
         transform: rotateX(0deg);
     }
     &:hover {
-        transform: scale(1.2);
-        background: linear-gradient(lighten( $colour-2, 5), lighten( $colour-1, 5));
+        background: linear-gradient(lighten( $colour-2, 10), lighten( $colour-1, 10));
         box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 9px, rgba(0, 0, 0, 0.23) 0px 6px 9px;
         ;
     }
