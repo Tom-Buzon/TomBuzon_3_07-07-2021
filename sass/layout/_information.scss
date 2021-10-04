@@ -32,6 +32,8 @@
         }
         &__texte {
             width: 80%;
+            color: grey;
+            font-size: 1.2em;
         }
         &__bouton {
             @include bouton;

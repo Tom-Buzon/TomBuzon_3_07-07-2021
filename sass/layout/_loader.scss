@@ -1,13 +1,9 @@
 #content-home {
     animation: fadein cubic-bezier(0, 0, 1, -0.18) 3000ms;
-    -webkit-animation: fadein cubic-bezier(0, 0, 1, -0.18) 3000ms;
-    -moz-animation: fadein cubic-bezier(0, 0, 1, -0.18) 3000ms;
 }
 
 #header__logo__home {
     animation: headerUp cubic-bezier(0, 0, 1, -0.18) 2000ms;
-    -webkit-animation: headerUp cubic-bezier(0, 0, 1, -0.18) 2000ms;
-    -moz-animation: headerUp cubic-bezier(0, 0, 1, -0.18) 2000ms;
 }
 
 .loader {
@@ -23,8 +19,6 @@
     right: 0;
     bottom: 0;
     animation: spin 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
-    -webkit-animation: spin 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
-    -moz-animation: spin 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
     opacity: 0;
     &__mini {
         border: 10px solid $colour-1;
@@ -40,8 +34,6 @@
         right: 0;
         bottom: 0;
         animation: spinOppose 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
-        -webkit-animation: spinOppose 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
-        -moz-animation: spinOppose 3s linear infinite, fadeOut cubic-bezier(0, 0, 1, -0.18) 2500ms;
         opacity: 0;
     }
 }

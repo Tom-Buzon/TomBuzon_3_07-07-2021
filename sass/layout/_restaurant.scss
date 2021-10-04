@@ -2,7 +2,7 @@
     background: $colour-secondary;
     padding: 20px;
     &__titre {
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: bold;
     }
     &__card {
@@ -47,6 +47,8 @@
                 &__localisation {}
             }
             &__logo {
+                font-size: 1.6em !important;
+                color: #222 !important;
                 @include logoHeart;
             }
         }

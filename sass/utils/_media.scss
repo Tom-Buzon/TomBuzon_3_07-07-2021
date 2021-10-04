@@ -48,6 +48,7 @@
         align-items: center;
         &__bouton {
             width: 50%;
+            justify-content: center;
         }
     }
     .restaurant {
@@ -56,6 +57,7 @@
         justify-content: space-between;
         &__titre {
             width: 100%;
+            text-align: center;
         }
         &__card {
             min-width: 49%
